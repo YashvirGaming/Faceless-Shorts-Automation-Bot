@@ -1,0 +1,29 @@
+# ==============================================================================
+#                      SHORTS CREATOR APP - CUSTOM GITIGNORE
+# ==============================================================================
+
+# --- Project Specific Data Safeguards ---
+/output/[!.]*
+/images/[!.]*
+/bin/ffmpeg.exe
+
+# --- Python Build Environment & Cache ---
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.venv/
+venv/
+ENV/
+
+# --- Nuitka Compiler Freezing Artifacts ---
+*.build/
+*.dist/
+*.onefile-build/
+
+# --- System & IDE Workspaces ---
+.idea/
+.vscode/
+*.suo
+Thumbs.db
+Desktop.ini
